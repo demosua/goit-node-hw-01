@@ -1,0 +1,22 @@
+створення проекту Node.js
+
+1. в теці проекту ініціалізуємо проект npm init -y
+
+2. встановлюємо першочергові пакети npm install cors express
+
+3. створюємо .gitignore
+
+4. пакети для розробки встановлюємо з флагом --save-dev
+   (npm install jest --save-dev) або скорочений варіант:
+   (npm i jest -D)
+
+5. встановити пакет nodemon (npm i nodemon -D)
+6. прописати скрипти в файлі package.json
+    "start": "node index",
+    "start:dev": ""
+
+7. start, test запускаються просто npm start, а все інше з командою "run" (npm run start:dev)
+
+8. для використання ES6 потрібно в package.json під 5 рядком (main)
+написати "type": "module", і при імпорті вказувати розширення файлу
+9. пункт
