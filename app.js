@@ -1,4 +1,4 @@
-import fs from "fs/promises";
+const fs = require("fs/promises");
 
 const readFile = async() => {
   const text = await fs.readFile("instruction.txt", "utf-8");
